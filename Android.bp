@@ -19907,10 +19907,138 @@ cc_prebuilt_binary {
 }
 
 sh_binary {
+    name: "init.class_main",
+    owner: "motorola",
+    src: "proprietary/vendor/bin/init.class_main.sh",
+    filename: "init.class_main.sh",
+    soc_specific: true,
+}
+
+sh_binary {
+    name: "init.mmi.boot",
+    owner: "motorola",
+    src: "proprietary/vendor/bin/init.mmi.boot.sh",
+    filename: "init.mmi.boot.sh",
+    soc_specific: true,
+}
+
+sh_binary {
+    name: "init.mmi.display",
+    owner: "motorola",
+    src: "proprietary/vendor/bin/init.mmi.display.sh",
+    filename: "init.mmi.display.sh",
+    soc_specific: true,
+}
+
+sh_binary {
+    name: "init.mmi.laser",
+    owner: "motorola",
+    src: "proprietary/vendor/bin/init.mmi.laser.sh",
+    filename: "init.mmi.laser.sh",
+    soc_specific: true,
+}
+
+sh_binary {
+    name: "init.mmi.modules",
+    owner: "motorola",
+    src: "proprietary/vendor/bin/init.mmi.modules.sh",
+    filename: "init.mmi.modules.sh",
+    soc_specific: true,
+}
+
+sh_binary {
+    name: "init.mmi.touch",
+    owner: "motorola",
+    src: "proprietary/vendor/bin/init.mmi.touch.sh",
+    filename: "init.mmi.touch.sh",
+    soc_specific: true,
+}
+
+sh_binary {
+    name: "init.mmi.usb",
+    owner: "motorola",
+    src: "proprietary/vendor/bin/init.mmi.usb.sh",
+    filename: "init.mmi.usb.sh",
+    soc_specific: true,
+}
+
+sh_binary {
+    name: "init.oem.fingerprint2",
+    owner: "motorola",
+    src: "proprietary/vendor/bin/init.oem.fingerprint2.sh",
+    filename: "init.oem.fingerprint2.sh",
+    soc_specific: true,
+}
+
+sh_binary {
+    name: "init.oem.hw",
+    owner: "motorola",
+    src: "proprietary/vendor/bin/init.oem.hw.sh",
+    filename: "init.oem.hw.sh",
+    soc_specific: true,
+}
+
+sh_binary {
+    name: "init.qcom.class_core",
+    owner: "motorola",
+    src: "proprietary/vendor/bin/init.qcom.class_core.sh",
+    filename: "init.qcom.class_core.sh",
+    soc_specific: true,
+}
+
+sh_binary {
+    name: "init.qcom.early_boot",
+    owner: "motorola",
+    src: "proprietary/vendor/bin/init.qcom.early_boot.sh",
+    filename: "init.qcom.early_boot.sh",
+    soc_specific: true,
+}
+
+sh_binary {
+    name: "init.qcom.post_boot",
+    owner: "motorola",
+    src: "proprietary/vendor/bin/init.qcom.post_boot.sh",
+    filename: "init.qcom.post_boot.sh",
+    soc_specific: true,
+}
+
+sh_binary {
+    name: "init.qcom",
+    owner: "motorola",
+    src: "proprietary/vendor/bin/init.qcom.sh",
+    filename: "init.qcom.sh",
+    soc_specific: true,
+}
+
+sh_binary {
+    name: "init.qti.early_init",
+    owner: "motorola",
+    src: "proprietary/vendor/bin/init.qti.early_init.sh",
+    filename: "init.qti.early_init.sh",
+    soc_specific: true,
+}
+
+sh_binary {
     name: "init.qti.fm",
     owner: "motorola",
     src: "proprietary/vendor/bin/init.qti.fm.sh",
     filename: "init.qti.fm.sh",
+    soc_specific: true,
+}
+
+sh_binary {
+    name: "init.qti.media",
+    owner: "motorola",
+    src: "proprietary/vendor/bin/init.qti.media.sh",
+    filename: "init.qti.media.sh",
+    soc_specific: true,
+}
+
+sh_binary {
+    name: "init.qti.write",
+    owner: "motorola",
+    src: "proprietary/vendor/bin/init.qti.write.sh",
+    filename: "init.qti.write.sh",
     soc_specific: true,
 }
 
@@ -20532,6 +20660,14 @@ cc_prebuilt_binary {
     soc_specific: true,
 }
 
+sh_binary {
+    name: "system_dlkm_modprobe",
+    owner: "motorola",
+    src: "proprietary/vendor/bin/system_dlkm_modprobe.sh",
+    filename: "system_dlkm_modprobe.sh",
+    soc_specific: true,
+}
+
 cc_prebuilt_binary {
     name: "tftp_server",
     owner: "motorola",
@@ -20679,6 +20815,14 @@ cc_prebuilt_binary {
         none: true,
     },
     prefer: true,
+    soc_specific: true,
+}
+
+sh_binary {
+    name: "vendor_modprobe",
+    owner: "motorola",
+    src: "proprietary/vendor/bin/vendor_modprobe.sh",
+    filename: "vendor_modprobe.sh",
     soc_specific: true,
 }
 
