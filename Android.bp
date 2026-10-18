@@ -19915,6 +19915,22 @@ sh_binary {
 }
 
 sh_binary {
+    name: "init.kernel.post_boot-bengal",
+    owner: "motorola",
+    src: "proprietary/vendor/bin/init.kernel.post_boot-bengal.sh",
+    filename: "init.kernel.post_boot-bengal.sh",
+    soc_specific: true,
+}
+
+sh_binary {
+    name: "init.kernel.post_boot",
+    owner: "motorola",
+    src: "proprietary/vendor/bin/init.kernel.post_boot.sh",
+    filename: "init.kernel.post_boot.sh",
+    soc_specific: true,
+}
+
+sh_binary {
     name: "init.mmi.boot",
     owner: "motorola",
     src: "proprietary/vendor/bin/init.mmi.boot.sh",

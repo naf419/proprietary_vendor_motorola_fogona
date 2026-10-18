@@ -1123,6 +1123,8 @@ PRODUCT_PACKAGES += \
     ims_rtp_daemon \
     imsdaemon \
     init.class_main \
+    init.kernel.post_boot-bengal \
+    init.kernel.post_boot \
     init.mmi.boot \
     init.mmi.display \
     init.mmi.laser \
